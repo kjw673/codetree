@@ -2,7 +2,7 @@
 
 int main() {
     // Please write your code here.
-    int a,b,temp1,temp2;
+    int a,b,temp1;
     scanf("%d %d",&a,&b);
     printf("%d.",a/b);
     temp1 =a%b*10;
