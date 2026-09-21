@@ -6,14 +6,15 @@ int main() {
     scanf("%d",&n);
 
     for(int i=1;i<=n;i++){
-        if(i%2==1) printf("*\n");
+        if(i%2==1) printf("*");
 
         if(i%2==0){
             for(int j=0;j<i;j++){
                 printf("* ");
             }
-            printf("\n");
         }
+        
+        printf("\n");
     }
     return 0;
 }
