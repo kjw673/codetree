@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    // Please write your code here.
+    int n;
+    scanf("%d",&n);
+
+    for(int i=n;i>0;i--){
+        for(int j=0;j<i;j++){
+            printf("*");
+        }
+
+        for(int e=0;e<n-i;e++){
+            printf("  ");
+        }
+
+        for(int j=0;j<i;j++){
+            printf("*");
+        }
+
+        printf("\n");
+    }
+    return 0;
+}
