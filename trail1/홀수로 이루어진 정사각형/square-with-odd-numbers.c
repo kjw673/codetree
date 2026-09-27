@@ -6,13 +6,13 @@ int main() {
     scanf("%d",&n);
 
     for(int i=0;i<n;i++){
-        num+=i*2;
+        num=11+i*2;
         for(int j=0;j<n;j++){
             printf("%d ",num);
             num+=2;
         }
         printf("\n");
-        num=11;
+ 
     }
     return 0;
 }
