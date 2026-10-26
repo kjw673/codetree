@@ -5,15 +5,14 @@ int count369(int a, int b){
         int i=a;
         if(a%3==0){
             cnt++;
-            a++;
-            continue;
-        }
-        while(i>0){
-            if(i%10==3 || i%10==6 || i%10==9){
-                cnt++;
-                break;
+        }else{
+            while(i>0){
+                if(i%10==3 || i%10==6 || i%10==9){
+                    cnt++;
+                    break;
+                }
+                i/=10;
             }
-            i/=10;
         }
         a++;
     }
