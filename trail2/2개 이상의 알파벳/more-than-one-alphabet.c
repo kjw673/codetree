@@ -1,6 +1,5 @@
 //a~z 97~122
 #include <stdio.h>
-#include <string.h>
 char A[101];
 
 
